@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
     <title>Google</title>
     <link rel='stylesheet' type='text/css' href='style/reset.css'/>
     <link rel='stylesheet' type='text/css' href='style/main.css'/>
+</head>
 <body>
     <div class='header'>
         <span class='header-icon'>Tom</span>
@@ -14,18 +14,35 @@
         <span class='header-icon'></span>
         <span class='header-icon'><img class='account' src='https://lh3.googleusercontent.com/-UX64uuQPLVw/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yqGbkddas6B-82Fh5auQ5Rhb2MGKw/s32-c-mo/photo.jpg'/></span>
     </div><!--close header-->
+
     <div class='logo'>
         <img src='https://www.google.co.nz/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'/>
+        <div class='logo-subtext'>New Zealand</div>
     </div><!--close logo-->
+
     <div class='searchbox'>
         <form action='#' method='POST' name='search'>
-        <input class='searchbox-input' name='search_input'/>
+            <input class='searchbox-input' type='text' name='search_input'/>
+            <div class='searchbox-button'>
+                <input type='submit' value='Google Search'/>
+                <input type='submit' value="I'm Feeling Lucky"/>
+            </div><!--close searchbox-button-->
+        </form>
     </div><!--close searchbox-->
+
     <div class='languages'>
-        
+        Google.co.nz offered in: <a href='#'>Maori</a>        
     </div><!--close languages-->
+
     <div class='footer'>
-        
+       <span class='footer-item-left'><a href='#'>Advertising</a></span> 
+       <span class='footer-item-left'><a href='#'>Business</a></span> 
+       <span class='footer-item-left'><a href='#'>About</a></span> 
+       <span class='footer-item-right'><a href='#'>Privacy</a></span> 
+       <span class='footer-item-right'><a href='#'>Terms</a></span> 
+       <span class='footer-item-right'><a href='#'>Settings</a></span> 
+       <span class='footer-item-right'><a href='#'>Use Google.com</a></span> 
     </div><!--close footer-->
+
 </body>
 </html>
