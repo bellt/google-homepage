@@ -7,21 +7,22 @@
 </head>
 <body>
     <div class='header'>
-        <span class='header-icon'>Tom</span>
-        <span class='header-icon'><a href='http://mail.google.com'>Gmail</a></span>
-        <span class='header-icon'><a href='http://images.google.com'>Images</a></span>
-        <span class='header-icon'></span>
-        <span class='header-icon'></span>
-        <span class='header-icon'><img class='account' src='https://lh3.googleusercontent.com/-UX64uuQPLVw/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yqGbkddas6B-82Fh5auQ5Rhb2MGKw/s32-c-mo/photo.jpg'/></span>
+        <div class='header-right'>
+            <span class='header-icon'>Tom</span>
+            <span class='header-icon'><a href='http://mail.google.com'>Gmail</a></span>
+            <span class='header-icon'><a href='http://images.google.com'>Images</a></span>
+            <span class='header-icon'></span>
+            <span class='header-icon'></span>
+            <span class='header-icon'><img class='account' src='https://lh3.googleusercontent.com/-UX64uuQPLVw/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yqGbkddas6B-82Fh5auQ5Rhb2MGKw/s32-c-mo/photo.jpg'/></span>
+        </div><!--close header-right-->
     </div><!--close header-->
 
     <div class='logo'>
-        <img src='https://www.google.co.nz/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'/>
-        <div class='logo-subtext'>New Zealand</div>
+        <img class='logo-img' src='https://www.google.co.nz/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'/>
     </div><!--close logo-->
 
     <div class='searchbox'>
-        <form action='#' method='POST' name='search'>
+        <form class='searchbox-form' action='#' method='POST' name='search'>
             <input class='searchbox-input' type='text' name='search_input'/>
             <div class='searchbox-button'>
                 <input type='submit' value='Google Search'/>
@@ -35,14 +36,14 @@
     </div><!--close languages-->
 
     <div class='footer'>
-       <span class='footer-item-left'><a href='#'>Advertising</a></span> 
-       <span class='footer-item-left'><a href='#'>Business</a></span> 
-       <span class='footer-item-left'><a href='#'>About</a></span> 
-       <span class='footer-item-right'><a href='#'>Privacy</a></span> 
-       <span class='footer-item-right'><a href='#'>Terms</a></span> 
-       <span class='footer-item-right'><a href='#'>Settings</a></span> 
-       <span class='footer-item-right'><a href='#'>Use Google.com</a></span> 
+        <span class='footer-item'><a href='#'>Advertising</a></span> 
+        <span class='footer-item'><a href='#'>Business</a></span> 
+        <span class='footer-item'><a href='#'>About</a></span> 
+        <div class='footer-right'>
+            <span class='footer-item'><a href='#'>Privacy</a></span> 
+            <span class='footer-item'><a href='#'>Terms</a></span> 
+            <span class='footer-item'><a href='#'>Settings</a></span> 
+        </div><!--close footer-right-->
     </div><!--close footer-->
-
 </body>
 </html>

@@ -1,19 +1,44 @@
-body {
-}
-
 .header {
+    margin:0;
+    padding:10px 10px 50px 10px;
+    overflow:hidden;
+    display:block;
 }
 
-.header-icon {
+.header-right {
+    float:right;
+}
+
+.footer {
+    margin:0;
+    padding:50px 10px 10px 10px;
+    overflow:hidden;
+    display:block;
+}
+
+.footer-right {
+    float:right;
 }
 
 .logo {
 }
 
-.logo-subtext {
+.logo-img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .searchbox {
+    padding:20px 10px 20px 10px;
+    margin:auto;
+    width:20%;
+}
+
+.searchbox-form {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .searchbox-input {
@@ -23,13 +48,6 @@ body {
 }
 
 .languages {
-}
-
-.footer {
-}
-
-.footer-item-left {
-}
-
-.footer-item-right {
+    margin:auto;
+    width:20%;
 }
