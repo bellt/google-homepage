@@ -1,6 +1,24 @@
+body {
+    font-family:arial, sans-serif;
+    font-size:13px;
+    text-align:center;
+    height:100%;
+    color:#333;
+}
+
+a {
+    text-decoration:none;
+    color:#333;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
 .header {
     margin:0;
-    padding:10px 10px 50px 10px;
+    padding-top:10px;
+    padding-bottom:10px;
     overflow:hidden;
     display:block;
 }
@@ -9,30 +27,47 @@
     float:right;
 }
 
+.header-icon {
+    padding-left:5px;
+    padding-right:25px;
+}
+
+#name {
+    color:#999;
+}
+
 .footer {
     margin:0;
-    padding:50px 10px 10px 10px;
+    padding-top:10px;
+    padding-bottom:10px;
     overflow:hidden;
     display:block;
+    text-align:left;
+    background-color:#eee;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
 }
 
 .footer-right {
     float:right;
 }
 
+.footer-item {
+    padding-left:20px;
+    padding-right:10px;
+}
+
 .logo {
+    padding-top:109px;
 }
 
 .logo-img {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .searchbox {
     padding:20px 10px 20px 10px;
-    margin:auto;
-    width:20%;
 }
 
 .searchbox-form {
@@ -42,12 +77,44 @@
 }
 
 .searchbox-input {
+    padding:10px 2px 10px 2px;
+    width:30%;
+    border: 1px solid #ccc;
+    background-size:24px 24px;
+    background-image:url('../images/mic.png');
+    background-position: 99% 5px;
+    background-repeat:no-repeat;
+}
+
+.searchbox-input:hover {
+    border: 1px solid #888;
+}
+.searchbox-input:focus {
+    border: 1px solid #06f;
+}
+
+.buttons {
+    padding-top:18px;
 }
 
 .searchbox-button {
+    background-color:#eee;
+    border:1px solid #eee;
+    color:#333;
+    padding:10px 20px;
+    text-decoration:none;
+    margin:4px 2px:
 }
 
-.languages {
-    margin:auto;
-    width:20%;
+.searchbox-button:hover {
+    color:111;
+    border:1px solid #111;
+}
+
+a.languages:visited {
+    color:#609;
+}
+
+a.languages {
+    color:#1a0dab;
 }

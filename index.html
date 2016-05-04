@@ -2,18 +2,19 @@
 <html>
 <head>
     <title>Google</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel='stylesheet' type='text/css' href='style/reset.css'/>
     <link rel='stylesheet' type='text/css' href='style/main.css'/>
 </head>
 <body>
     <div class='header'>
         <div class='header-right'>
-            <span class='header-icon'>Tom</span>
-            <span class='header-icon'><a href='http://mail.google.com'>Gmail</a></span>
-            <span class='header-icon'><a href='http://images.google.com'>Images</a></span>
-            <span class='header-icon'></span>
-            <span class='header-icon'></span>
-            <span class='header-icon'><img class='account' src='https://lh3.googleusercontent.com/-UX64uuQPLVw/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yqGbkddas6B-82Fh5auQ5Rhb2MGKw/s32-c-mo/photo.jpg'/></span>
+            <span class='header-icon' id='name'>Tom</span>
+            <span class='header-icon'><a href='#'>Gmail</a></span>
+            <span class='header-icon'><a href='#'>Images</a></span>
+            <span class='header-icon'><a href='#'><img src='images/grid.png'/></a></span>
+            <!--<span class='header-icon'></span>-->
+            <span class='header-icon'><a href='#'><img class='account' src='https://lh3.googleusercontent.com/-UX64uuQPLVw/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yqGbkddas6B-82Fh5auQ5Rhb2MGKw/s32-c-mo/photo.jpg'/></a></span>
         </div><!--close header-right-->
     </div><!--close header-->
 
@@ -24,16 +25,16 @@
     <div class='searchbox'>
         <form class='searchbox-form' action='#' method='POST' name='search'>
             <input class='searchbox-input' type='text' name='search_input'/>
-            <div class='searchbox-button'>
-                <input type='submit' value='Google Search'/>
-                <input type='submit' value="I'm Feeling Lucky"/>
-            </div><!--close searchbox-button-->
+            <div class='buttons'>
+                <input class='searchbox-button' type='submit' value='Google Search'/>
+                <input class='searchbox-button' type='submit' value="I'm Feeling Lucky"/>
+            </div><!--close buttons-->
         </form>
     </div><!--close searchbox-->
 
-    <div class='languages'>
-        Google.co.nz offered in: <a href='#'>Maori</a>        
-    </div><!--close languages-->
+    <div>
+        Google.co.nz offered in: <a class='languages'href='#'>Māori</a> 
+    </div><!--close language div-->
 
     <div class='footer'>
         <span class='footer-item'><a href='#'>Advertising</a></span> 
